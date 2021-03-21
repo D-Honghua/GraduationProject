@@ -1,0 +1,39 @@
+.page-wrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: contain ;
+}
+.small{
+  font-size: 16px;
+  margin-left: 5px;
+}
+.tob-box{
+  font-size: 10vw;
+  color:#fff;
+  font-weight: 600;
+  left: 1vw;
+  text-align: center;
+  margin: 12vw 0;
+}
+
+.btn-item-box{
+  font-size: 4vw;
+  color: #606266;
+  background: #fff;
+  text-align: center;
+  width: 70vw;
+  line-height: 12vw;
+  margin: 10vw auto;
+  border-radius: 5px;
+  border: 1px solid #dcdfe6;
+
+}
+.in{
+  background: #faf1f1;
+}
+.hover-color{
+  background-color: #eeeeee;
+}

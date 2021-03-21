@@ -1,0 +1,14 @@
+<view class="page-wrap" style="background: url(https://wxzx.cqyti.com/wxFiles/banner/myYare/3.png) no-repeat;background-size: 100% 100%;">
+  <view class="tob-box">
+    <view>
+       校园门禁<span class="small">(扫码工具)</span>
+    </view>
+  </view>
+  <view class="cont-box"> 
+      <view class="btn-item-box" bindtap="scanCode" hover-class="hover-color" data-place="北大门" data-state='0'>北大门 (出校)</view>
+      <view class="btn-item-box in" bindtap="scanCode" hover-class="hover-color" data-place="北大门" data-state='1'>北大门 (入校)</view>
+
+      <view class="btn-item-box" bindtap="scanCode" hover-class="hover-color" data-place="南大门"  data-state='0'>南大门 (出校)</view>
+      <view class="btn-item-box in" bindtap="scanCode" hover-class="hover-color" data-place="南大门"  data-state='1'>南大门 (入校)</view>
+  </view>
+</view>
