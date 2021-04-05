@@ -27,13 +27,11 @@ export default class Index extends Component {
   }
   async login() {
     const { user, password } = this.state;
-    // console.log(user === "2017211043" && password === "123456");
     if (!user || !password)
       Taro.showToast({
         title: "请输入账号密码！",
         icon: "none",
       });
-
     const data = await request.get("/login", {
       user,
       password,
@@ -85,7 +83,7 @@ export default class Index extends Component {
             ></Input>
           </View>
           <View className="desc-box">
-            <View>注册</View>
+            {/* <View>注册</View> */}
             <View>忘记密码?</View>
           </View>
 
@@ -97,6 +95,7 @@ export default class Index extends Component {
           >
             登 录
           </Button>
+          <View className="desc2">@CatiiHuang-毕业设计</View>
         </View>
       </View>
     );
